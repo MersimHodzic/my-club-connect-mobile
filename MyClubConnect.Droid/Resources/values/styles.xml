@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <!-- Splash style -->
+
+  <!-- Application theme -->
+  <style name="AppTheme" parent="AppTheme.Base">
+  </style>
+
+  <style name="AppTheme.Splash" parent="AppTheme.Base">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>
+
+  <style name="AppTheme.Login" parent="AppTheme.Base">
+    <item name="android:statusBarColor">@android:color/transparent</item>
+  </style>
+
+  <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+  </style>
+  
+  <style name="AppTheme.Toolbar">
+    <item name="android:layout_height">?attr/actionBarSize</item>
+    <item name="android:background">?attr/colorPrimary</item>
+  </style>
+
+</resources>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClubConnect.Core", "MyClubConnect.Core\MyClubConnect.Core.csproj", "{8EB3982B-85EE-4C66-AEAD-9EAF0AF71867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClubConnect.Droid", "MyClubConnect.Droid\MyClubConnect.Droid.csproj", "{5197183F-B089-47CB-B032-989FE4C7C6B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EB3982B-85EE-4C66-AEAD-9EAF0AF71867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB3982B-85EE-4C66-AEAD-9EAF0AF71867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB3982B-85EE-4C66-AEAD-9EAF0AF71867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB3982B-85EE-4C66-AEAD-9EAF0AF71867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5197183F-B089-47CB-B032-989FE4C7C6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5197183F-B089-47CB-B032-989FE4C7C6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5197183F-B089-47CB-B032-989FE4C7C6B6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5197183F-B089-47CB-B032-989FE4C7C6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5197183F-B089-47CB-B032-989FE4C7C6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5197183F-B089-47CB-B032-989FE4C7C6B6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A68A1F0-86F7-4FC4-864F-1752DDE77E80}
+	EndGlobalSection
+EndGlobal
